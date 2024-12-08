@@ -1,0 +1,108 @@
+.sub__hero {
+    /* background: #5b5b5b; */
+    background:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url(../assets/digital-art-with-city-landscape-architecture_23-2151065702.avif) center center / contain;
+    padding: 5rem 2rem;
+    width: 100%;
+    color: #fff;
+}
+
+.message__box {
+    display: flex;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    padding: .41rem 1rem;
+    border-radius: .2rem;
+    justify-content: flex-start;
+}
+
+.message__box__img {
+    width: 25px;
+}
+
+.message__box p {
+    margin-left: .5rem;
+}
+
+.invalid__input {
+    color: red;
+    margin-top: -22px;
+    font-size: .71rem;
+    padding: 0 0 0 .51rem;
+}
+
+.box__green {
+    background: green;
+}
+.box__red {
+    background: red;
+}
+
+.sub__hero__wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.sub__hero__image {
+    width: 45px;
+}
+
+.sub__hero__textcontent,  
+.sub__hero__textcontent > h1,
+.sub__hero__textcontent > p {
+    text-align: center;
+}
+
+/* Contact form */
+
+.sub__hero__textcontent {
+    flex: 2;
+}
+
+.contact__form  {
+    background: rgba(0, 0, 0, .5);
+    flex: 2;
+    padding: 2rem;
+}
+
+.contact__form label {
+    display: block;
+    font-size: 1rem;
+}
+
+.contact__form input {
+    margin-bottom: 0.5rem;
+    max-width: 320px;
+    border-radius: .1rem;
+    width: 80%;
+    padding: .541rem .451rem;
+    outline: none;
+    border: none;
+}
+
+.btn__submit {
+    margin-top: 1rem;
+    padding: .441rem 1rem;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff6ff;
+    font-size: .9rem;
+    outline: none;
+}
+.btn__submit:hover {
+    letter-spacing: 1px;
+    background-color: whitesmoke;
+    color: #000;
+}
+
+@media(max-width: 768px){
+    .sub__hero__wrapper {
+        flex-direction: column;
+    }
+    .contact__form {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

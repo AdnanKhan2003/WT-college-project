@@ -1,0 +1,31 @@
+.main__header {
+    background-color: #fff6f6;
+    background-color: #1E201E;
+    box-shadow: 0 1 1 rgba(0, 0, 0, 0.9);
+}
+
+.main__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 2rem;
+}
+
+.logo__img {
+    width: 23px;
+}
+
+.nav__middle__links {
+    display: flex;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+    color: #fff;
+    margin: 0.2rem 0.6rem;
+}

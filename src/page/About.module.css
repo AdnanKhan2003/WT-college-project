@@ -1,0 +1,38 @@
+.sub__hero {
+    background:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url(../assets/digital-art-with-city-landscape-architecture_23-2151065702.avif) center center / contain;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sub__hero__title {
+    margin: 0 4rem;
+}
+
+.sub__hero__image {
+    width: 105px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .8rem 1.2rem;
+    background: papayawhip;
+}
+
+.sub__hero__textcontent {
+    margin: 0 -48px;
+}
+
+
+.sub__hero__textcontent,  
+.sub__hero__textcontent > h1,
+.sub__hero__textcontent > p {
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .sub__hero {
+        justify-content: unset;
+        flex-direction: column;
+    }
+}

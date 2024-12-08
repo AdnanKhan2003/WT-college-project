@@ -1,0 +1,32 @@
+.hero {
+    background:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url(../assets/digital-art-with-city-landscape-architecture_23-2151065702.avif) center center / contain;
+    padding: 8rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.hero__title {
+    margin: 0 4rem;
+}
+
+.hero__image {
+    width: 85px;
+}
+
+
+
+@media(max-width: 768px){
+    .hero {
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .hero__image__1{
+        align-self: start;
+    }
+    .hero__image__2{
+       align-self: end; 
+    }
+}
